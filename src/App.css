@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Montserrat:wght@100&family=The+Nautigal&display=swap');
+/* font-family: 'Luxurious Roman', cursive; */
+
+:root{
+    background: black;
+}
+.background{
+    background: black;
+}
+.container{
+    
+    font-family:'Luxurious Roman', 'cursive'; ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+    
+}
+h2{
+    color: aqua;
+    text-align: center;
+    font-size: 70px;
+    padding: 4px;
+}
+
+h5{
+    color: white;
+    text-align: center;
+    font-family:'Luxurious Roman', 'cursive'; ;
+}
+p{
+    color: palegreen;
+    font-size: 11px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+#box{
+    max-width:300px;
+    margin:8px;
+    padding:10px;
+    box-shadow: 2px 2px 10px white;
+    
+}
